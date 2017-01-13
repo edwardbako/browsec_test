@@ -3,7 +3,10 @@
 
   init: () ->
     $(document).on 'turbolinks:load', ()->
-      element = document.getElementById('details')
-      element.scrollTop = element.scrollHeight
+      App.scroll_details()
+
+  scroll_details: ()->
+    element = document.getElementById('details')
+    element.scrollTop = element.scrollHeight
 
 App.init()
