@@ -1,0 +1,31 @@
+ru:
+
+  activerecord:
+    models:
+      request:
+        zero: Запросов
+        one: Запрос
+        few: Запроса
+        other: Запросов
+
+    attributes:
+     request:
+      text: Текст запроса
+
+    errors:
+      messages:
+       blank: не может быть пустым
+
+  helpers:
+    submit:
+      create: Создать %{model}
+
+  time:
+    formats:
+      default: "%d.%m.%Y %H:%M:%S"
+
+  request:
+    zero: "%{count} запросов"
+    one: "%{count} запрос"
+    few: "%{count} запроса"
+    other: "%{count} запросов"

@@ -6,12 +6,15 @@ gem 'rails', '~> 5.0.0' # Bundle edge Rails instead: gem 'rails', github: 'rails
 gem 'pg', '~> 0.18' # Use postgresql as the database for Active Record
 gem 'puma', '~> 3.0' # Use Puma as the app server
 
+gem 'slim-rails' # Slim markup for templates
 gem 'sass-rails', '~> 5.0' # Use SCSS for stylesheets
+
+gem 'bootstrap-sass' # Bootstrap stylesheets
+gem 'font-awesome-rails' # Font-awesome icons
 gem 'uglifier', '>= 1.3.0' # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '~> 4.2' # Use CoffeeScript for .coffee assets and views
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
-
 gem 'jquery-rails' # Use jquery as the JavaScript library
 gem 'turbolinks', '~> 5' # Turbolinks makes navigating your web application faster
 
